@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Które miasto to stolica Polski?",
+    "answers": [
+      "Kraków",
+      "Poznań",
+      "Warszawa",
+      "Gdańsk"
+    ],
+    "right_answer": "Warszawa"
+  },
+  {
+    "question": "Jak sprawdzić długość listy w Python?",
+    "answers": [
+      "my_list.size()",
+      "my_list.len()",
+      "len()",
+      "size()"
+    ],
+    "right_answer": "my_list.len()"
+  },
+    {
+    "question": "W który dzień stycznia przypada święto Babci?",
+    "answers": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "right_answer": "21"
+  },
+    {
+    "question": "W który dzień stycznia przypada święto Dziadka?",
+    "answers": [
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "right_answer": "22"
+  },
+    {
+    "question": "Ile cali ma macbook air z 2020 roku?",
+    "answers": [
+      "11.3",
+      "12.3",
+      "13.3",
+      "14.3"
+    ],
+    "right_answer": "13.3"
+  }
+]
