@@ -14,14 +14,12 @@ class MainMenu:
 
             if choice == '1':
                 game = Game(49, 6)
-                game.get_user_numbers()
-                game.draw_numbers()
+                game.run_game()
                 print(f'Wygrałeś mając {self.player_age + game.calculate_time_to_win()} lat. Żyjesz jeszcze?')
 
             elif choice == '2':
                 game = Game(42, 5)
-                game.get_user_numbers()
-                game.draw_numbers()
+                game.run_game()
                 print(f'Wygrałeś mając {self.player_age + game.calculate_time_to_win()} lat. Żyjesz jeszcze?')
 
             elif choice == '9':

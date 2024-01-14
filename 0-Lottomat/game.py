@@ -13,6 +13,10 @@ class Game:
         self.drawn_numbers = set()
         self.user_numbers = set()
 
+    def run_game(self):
+        self.get_user_numbers()
+        self.draw_numbers()
+
     def get_user_numbers(self):
         while len(self.user_numbers) < self.how_many_num:
             try:
@@ -47,7 +51,9 @@ class Game:
         print(f'Trafiłeś {self.hits_four} czwórek')
         if self.how_many_num == 6:
             print(f'Trafiłeś {self.hits_five} piątek')
-        print(f'... no i oczywiście szóstkę :)')
+            print(f'... no i oczywiście szóstkę :)')
+        else:
+            print(f'... no i oczywiście piątkę :)')
 
     def calculate_time_to_win(self):
         """
